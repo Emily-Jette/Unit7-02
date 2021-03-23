@@ -7,8 +7,7 @@ function comparison () {
   // convert userNumber into integer
   userNumber = document.getElementById('input').value
   userNumber = parseInt(userNumber)
-  
-  if (userNumber < 0){
+  if (userNumber < 0) {
     document.getElementById('answer').innerHTML = 'The number you wrote was negative'
   }else{
     document.getElementById('answer').innerHTML = 'The number you wrote was positive'
