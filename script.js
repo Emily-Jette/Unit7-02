@@ -9,7 +9,7 @@ function comparison () {
   userNumber = parseInt(userNumber)
   if (userNumber < 0) {
     document.getElementById('answer').innerHTML = 'The number you wrote was negative'
-  }else{
+  } else {
     document.getElementById('answer').innerHTML = 'The number you wrote was positive'
   }
 }
